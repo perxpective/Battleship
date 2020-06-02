@@ -71,6 +71,54 @@ if guess_row == ship_row and guess_col == ship_col:
     turn =+ 1
     print_board(board)
 ```
+## Dry Run
+Missing the Battleship
+```
+Let's play Battleship!
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+O O O O O O
+Turn
+Guess Row:2
+Guess Col:3
+You missed my battleship!
+O O O O O O
+O O O O O O
+O O O X O O
+O O O O O O
+O O O O O O
+O O O O O O
+```
+
+## Out of Range
+```
+O O X O O O
+O O O O O O
+O O O X O O
+O O O O O O
+O O O O O O
+O O O O X O
+Turn
+Guess Row:7
+Guess Col:8
+Oops, that's not even in the ocean.
+```
+
+## Game Over :((
+```
+You missed my battleship!
+Game Over
+X O O O O O
+O O O O O O
+O X O O X X
+O O O O X O
+O O O X O O
+O O O X O X
+```
+
 
 
 
