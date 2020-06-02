@@ -93,7 +93,7 @@ O O O O O O
 O O O O O O
 ```
 
-## Out of Range
+Out of Range
 ```
 O O X O O O
 O O O O O O
@@ -106,8 +106,7 @@ Guess Row:7
 Guess Col:8
 Oops, that's not even in the ocean.
 ```
-
-## Game Over :((
+Game Over :((
 ```
 You missed my battleship!
 Game Over
